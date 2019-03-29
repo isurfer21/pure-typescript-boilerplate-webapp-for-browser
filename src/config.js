@@ -4,4 +4,4 @@ requirejs.config({
         app: "./js"
     }
 });
-requirejs(["js/main"]);
+requirejs(["main"]);
