@@ -5,5 +5,6 @@ export class Human {
 	}
 	public init() {
 		console.log('Human init', this.name);
+		document.body.innerHTML += '<p>' + this.name + ' is human.</p>';
 	}
 }

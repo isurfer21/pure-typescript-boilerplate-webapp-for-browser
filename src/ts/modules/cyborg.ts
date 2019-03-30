@@ -5,5 +5,6 @@ export class Cyborg {
 	}
 	public init() {
 		console.log('Cyborg init', this.id);
+		document.body.innerHTML += '<p>' + this.id + ' is cyborg.</p>';
 	}
 }

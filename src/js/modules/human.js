@@ -7,8 +7,10 @@ define(["require", "exports"], function (require, exports) {
         }
         Human.prototype.init = function () {
             console.log('Human init', this.name);
+            document.body.innerHTML += '<p>' + this.name + ' is human.</p>';
         };
         return Human;
     }());
     exports.Human = Human;
 });
+//# sourceMappingURL=human.js.map

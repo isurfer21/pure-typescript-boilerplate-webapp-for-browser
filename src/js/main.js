@@ -15,3 +15,4 @@ define(["require", "exports", "./modules/cyborg", "./modules/human"], function (
     var main = new Main();
     main.init();
 });
+//# sourceMappingURL=main.js.map
